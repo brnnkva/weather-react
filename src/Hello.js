@@ -16,7 +16,11 @@ let apiKey = "a2448133104335b630f878b5541b3167";
     return ( 
         <div>
         <h4>The temperature in {props.city} is {temperature}°C</h4>
-        <Loader type="TailSpin" color="#00BFFF" height={80} width={80} />
+        <Loader 
+        type="TailSpin" 
+        color="#00BFFF" 
+        height={80} 
+        width={80} />
         </div>
         
 
